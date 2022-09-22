@@ -19,6 +19,7 @@
 		6C07F1C228DCF15E0085FE8A /* iOSMSNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07F1C128DCF15E0085FE8A /* iOSMSNTests.swift */; };
 		6C07F1CC28DCF15E0085FE8A /* iOSMSNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07F1CB28DCF15E0085FE8A /* iOSMSNUITests.swift */; };
 		6C07F1CE28DCF15E0085FE8A /* iOSMSNUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C07F1CD28DCF15E0085FE8A /* iOSMSNUITestsLaunchTests.swift */; };
+		6C07F1E128DCFD5F0085FE8A /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C07F1E028DCFD5F0085FE8A /* Auth.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		6C07F1C728DCF15E0085FE8A /* iOSMSNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSMSNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C07F1CB28DCF15E0085FE8A /* iOSMSNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMSNUITests.swift; sourceTree = "<group>"; };
 		6C07F1CD28DCF15E0085FE8A /* iOSMSNUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSMSNUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C07F1E028DCFD5F0085FE8A /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		A69781C4CDC19CAC80485B9B /* Pods-iOSMSN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSMSN.release.xcconfig"; path = "Target Support Files/Pods-iOSMSN/Pods-iOSMSN.release.xcconfig"; sourceTree = "<group>"; };
 		A931041DD4EDBDF1AF7B0F7F /* Pods_iOSMSN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMSN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD81F55E952BAA27B8808DCA /* Pods_iOSMSNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSMSNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 		6C07F1A928DCF15C0085FE8A /* iOSMSN */ = {
 			isa = PBXGroup;
 			children = (
+				6C07F1DC28DCFD280085FE8A /* Scenes */,
 				6C07F1AA28DCF15C0085FE8A /* AppDelegate.swift */,
 				6C07F1AC28DCF15C0085FE8A /* SceneDelegate.swift */,
 				6C07F1AE28DCF15C0085FE8A /* ViewController.swift */,
@@ -155,6 +158,38 @@
 				6C07F1CD28DCF15E0085FE8A /* iOSMSNUITestsLaunchTests.swift */,
 			);
 			path = iOSMSNUITests;
+			sourceTree = "<group>";
+		};
+		6C07F1DC28DCFD280085FE8A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6C07F1DD28DCFD2E0085FE8A /* Auth */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6C07F1DD28DCFD2E0085FE8A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6C07F1DF28DCFD420085FE8A /* View */,
+				6C07F1DE28DCFD3B0085FE8A /* ViewModel */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6C07F1DE28DCFD3B0085FE8A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6C07F1DF28DCFD420085FE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C07F1E028DCFD5F0085FE8A /* Auth.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9931A068021ADB089EAE21EF /* Frameworks */ = {
@@ -276,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C07F1E128DCFD5F0085FE8A /* Auth.storyboard in Resources */,
 				6C07F1B728DCF15E0085FE8A /* LaunchScreen.storyboard in Resources */,
 				6C07F1B428DCF15E0085FE8A /* Assets.xcassets in Resources */,
 				6C07F1B228DCF15C0085FE8A /* Main.storyboard in Resources */,
