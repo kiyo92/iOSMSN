@@ -7,8 +7,13 @@ target 'iOSMSN' do
 
   # Pods for iOSMSN
 
-pod 'Alamofire', '~> 4.5'  
-pod 'SwiftyJSON', '~> 4.0'
+  pod 'Alamofire', '~> 4.5'  
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'Firebase'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+  pod 'Firebase/Database'
 
   target 'iOSMSNTests' do
     inherit! :search_paths
